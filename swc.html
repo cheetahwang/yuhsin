@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Banner Design</title>
+    <title>SWC App UI/UX Design</title>
     <link rel="icon" href="img/fav.png" type="image/x-icon">
 
     <!-- Bootstrap -->
@@ -39,9 +39,9 @@
 </head>
 
 <body>
-    <div class="box-logo">
+     <div class="box-logo">
          <a href="index.html"><img src="img/logo.png" width="80" alt="Logo"></a>
-    </div>
+     </div>
     <!-- Preloader -->
     <div id="preloader">
         <div class="pre-container">
@@ -59,32 +59,65 @@
     <!-- main-container -->
     <div class="container main-container">
         <div class="col-md-12">
-            <img src="img/tableware_1_1920.jpg" alt="" class="img-responsive" />
-            <img src="img/tableware_2_a.jpg" alt="" class="img-responsive" />
-            <img src="img/tableware_2_1920.jpg" alt="" class="img-responsive" />
+            <img src="img/swc_01.jpg" alt="" class="img-responsive" />
             <div class="h-30"></div>
         </div>
 
-        <div class="col-md-12">
-            <h3 class="text-uppercase">Midohouse Tableware Banner Design</h3>
-            <h5>Banner Design</h5>
+        <div class="col-md-12">SWC App</h3>
+            <h5>UI / UX Design</h5>
             <div class="h-30"></div>
         </div>
 
         <div class="col-md-9">
-            <p>Develop the themes of marketing event.</p>
-            <p>Design and modify products images with Photoshop and Illustrator.</p>
+            <h4>Before Redesign</h4>
+            <p>Screenshots of the registration process:</p>
+            <img src="img/swc_before.jpg" alt="" class="img-responsive"/>
         </div>
-
-        <div class="col-md-3">
+             <div class="col-md-3">
             <ul class="cat-ul">
-                <li><i class="ion-ios-circle-filled"></i> 2014</li>
-                <li><i class="ion-ios-circle-filled"></i> Photoshop, Illustrator</li>
+                <li><i class="ion-ios-circle-filled"></i> 2017</li>
+                <li><i class="ion-ios-circle-filled"></i> Sketch</li>
             </ul>
-            <div class="h-10"></div>
-            
+            <div class="h-10"></div> 
         </div>
-        
+         <div class="col-md-9">
+            <h4>Define Problem</h4>
+            <ul>
+              <li>Too many alerts
+              <br>
+              According to iOS Human Interface Guidelines, alerts disrupt the user experience and should only be used in important situations. If there are too many situations use alert, people will not take them seriously.</li>
+              <li>Unclear instructions
+              <br>
+              There should be a hint about the limit of the password. I felt frustrated when I input the password and then popuped an alert said I should use the password which contains one uppercase character.  
+              When I pressed the OK button at Step4, I thought I finished the registraion progress and tried to log in, then an alerts popuped  which said that I need to confirm the email address. I think it should inform me that before I tried to log in.</li>
+              <li>Hard to notice the registration button
+              <br>
+              It’s uneasy to find the registration button at a glance, and when I tried to press the registration button, I pressed the forgot password button incautiously.</li>
+            </ul>
+        </div>
+ <div class="col-md-9">
+            <h4>Solution</h4>
+            <ul>
+              <li>Wireframe</li>
+            </ul>
+            <img src="img/swc_wireframe.png" alt="" class="img-responsive"/>
+            <ul>
+              <li>Mock up</li>
+            </ul>
+            <img src="img/swc_mockup.jpg" alt="" class="img-responsive"/>
+            <ul>0.0:</p>
+            <p>If user have not yet finished the form, the Create account button will be disable.
+When typing the information, layout will be changed. Because the keyboard is at the bottom, in order to display all the input field, the logo become smaller and I move up the position of the form.</p>
+<p>0.1, 0.2:</p>
+<p>When it is at the waiting 30 seconds status, the button is disable.</p>
+</ul>
+            <ul>
+              <li>Style sheet</li>
+              <img src="img/swc_style.png" alt="" class="img-responsive"/>
+            </ul>
+        </div>
+   
+
     </div>
     <!-- end main-container -->
 
