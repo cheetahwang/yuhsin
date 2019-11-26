@@ -59,7 +59,7 @@
     <!-- main-container -->
     <div class="container main-container">
         <div class="col-md-12">
-            <img src="img/ig_1920.jpg" alt="" class="img-responsive" />
+            <img src="img/ig_1920_2.jpg" alt="" class="img-responsive" />
             <div class="h-30"></div>
         </div>
 
@@ -96,39 +96,52 @@
                 <p>These would allow users to add notes to their devices and sites about which customer is connected, and other useful stuff. This was requested by a customer.
                 </p>
                 <li>Highlight</li>
-                <p>1. Interview users to learn the user scenario
-                <br>2. Design a simple way for user to add note quickly and for developers, it doesn't take much effort to deployment.
-                </p>
+                <ul>
+                <li>Interview users to learn the user scenario</li>
+                <li>Design a simple way for user to add note quickly and for developers, it doesn't take much effort to deployment.</li>
+                </ul>
                 <li>Process</li>
                 <p>1. Define Goal
-                <br>A new feature which helps user quick note everything important.
+                <br>Talk to users to learn their scenarios. Discuss with PO to confirm the scenarios and the feature goal "Allow user to note everything important quickly".
                 </p>
                 <p>2. Design Metric
-                <br>- Easy to be used 
-                <br>- Easy to be searched
-                <br>- Easy to be deployed
+                <br>- Consistency and standards
+                <br>- Recognition rather than recall
+                <br>- User control and freedom
+                <br>- Visibility of system status
                 </p>
                 <p>
                 3. Explore
-                <br>- Define Scenario
+                <br>Define Scenario
                 <br>This is a new feature which there are many possible scenarios and maybe some scenarios we didn't know. It's hard to design for all scenarios. Discuss with team members and decided to design for the scenarios we know.
+                <ul>
+                <li>Scenario 1: User Morris added a device which is named 2F-15 in Taipei 101, he wrote down the device location since he doesn’t have the Taipei 101 building map, and there are 15 devices installed in 2F.  One day Morris found out that device 2F-15 was offline, so he decided to go to Taipei 101 to check the device. He used the note to know where the device was and found it quickly.</li>
+                <li>Scenario 2: Morris installed a ignitenet device in Taipei 101 2F, because of some security reasons, he didn't registered it in cloud. He checked the vlan ID (he already had a vlan, he wanted to involve this device in). After installing it, He added a note about the device vlan ID and IP address in Taipei 101 site. Taipei 101 manager said internet in some places are not stable, Morris know the internet in that area is connecting by the not registered device. Then he went to Taipei 101, checked the note and know its vlan Id and IP address, then he local logged in to see what happen.</li>
+                </ul>
                 <br>
-                <br>- Idea A: User can enter everything at the same place. The reason why note is on left menu is because it might be used to note installation info, it'd be better that while user do config task, he/she can still see these note without going to other page
-                <img src="img/ig_11018_quickconcepta.JPG"/>
+                <ul>
+                <li>Idea A: User can enter everything at the same place. The reason why note is on left menu is because it might be used to note installation info, it'd be better that while user do config task, he/she can still see these note without going to other page
+                <br>
+                <img src="img/ig_11018_quickconcepta.JPG"/></li>
                 <br>
                 <br>
-                <br>- Idea B: There is a small button/text link at Site/Device info bottom, click it will show pop up. This note can be shown on device list table, beneath device name. Or expand the row to see its note.
+                <li>Idea B: There is a small button/text link at Site/Device info bottom, click it will show pop up. This note can be shown on device list table, beneath device name. Or expand the row to see its note.
                 <br>
                 <br>
-                <img src="img/ig_11018_quickconceptb.JPG"/>
-                <br>- Decision
+                <img src="img/ig_11018_quickconceptb.JPG"/></li>
+                </ul>
+                <br>4. Decision
                 <br>Because it's a new feature, and the scenario is uncertain. The goal is to deliver MVP, not to cost much time and effort, as it implemented, gather user's feedback to iterate it. Therefore based on the idea B to design.
                 </p>
                 <li>Design</li>
-                <p>- Flow chart
+                <ul>
+                <li>Use the existing components and patterns</li>
+                <li>Run usability test to make the design decisiion</li>
+                <li>Polish design</li>
+                </ul>
                 <img src="img/ig_11018_flowchart.jpg" alt="" class="img-responsive"/>
-                <img src="img/ig_11018.jpg" alt="" class="img-responsive"/>
-                </p>
+                <img src="img/ig_11018_finaldesign.jpg" alt="" class="img-responsive"/>
+              
                 <br>
                 <li>If you are interested in the other features I designed please feel free to contact me :) </li>
             </ul>       
