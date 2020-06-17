@@ -19,7 +19,7 @@
 /* Google fonts & font family
 ==================================================*/
 
-@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 /* General
 ==================================================*/
@@ -27,9 +27,9 @@
 html,
 body {
     height: 100%;
-    font-family: 'Ubuntu', sans-serif;
-    line-height: 1.8;
-    color: #999
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    color: #505050
 }
 
 .no-padding {
@@ -82,14 +82,30 @@ h1 {
     text-transform: uppercase;
 }
 
+h2 {
+    color: #ffbf00;
+    font-size: 48px;
+}
+
 h3 {
-    color: #393939;
+    color: #505050;
+    font-size: 32px;
+}
+
+h4 {
+    color: #505050;
+    font-size: 28px;
 }
 
 h5 {
     color: #ffbf00;
+    font-size: 22px;
 }
 
+p {
+    color: #505050;
+    font-size: 16px;
+}
 
 /* preloader
 ==================================================*/

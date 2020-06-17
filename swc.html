@@ -20,15 +20,17 @@
     <!-- modernizr -->
     <script src="js/modernizr.js"></script>
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-106402845-1', 'auto');
-  ga('send', 'pageview');
+        ga('create', 'UA-106402845-1', 'auto');
+        ga('send', 'pageview');
 
-</script>
+    </script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -39,9 +41,9 @@
 </head>
 
 <body>
-     <div class="box-logo">
-         <a href="index.html"><img src="img/logo.png" width="80" alt="Logo"></a>
-     </div>
+    <div class="box-logo">
+        <a href="index.html"><img src="img/logo.png" width="80" alt="Logo"></a>
+    </div>
     <!-- Preloader -->
     <div id="preloader">
         <div class="pre-container">
@@ -53,9 +55,9 @@
     </div>
     <!-- end Preloader -->
 
-  
-    
-    
+
+
+
     <!-- main-container -->
     <div class="container main-container">
         <div class="col-md-12">
@@ -63,62 +65,59 @@
             <div class="h-30"></div>
         </div>
 
-        <div class="col-md-12">SWC App</h3>
+        <div class="col-md-12">
+            <h4><span style="font-weight:bold;">SWC App</span></h4>
             <h5>UI / UX Design</h5>
             <div class="h-30"></div>
         </div>
 
         <div class="col-md-9">
-        <p>SWC is a surveillance video system</p>
+            <p>SWC is a surveillance video system</p>
             <br>
             <h4>Before Redesign</h4>
             <p>Screenshots of the registration process:</p>
-            <img src="img/swc_before.jpg" alt="" class="img-responsive"/>
+            <img src="img/swc_before.jpg" alt="" class="img-responsive" />
         </div>
-             <div class="col-md-3">
+        <div class="col-md-3">
             <ul class="cat-ul">
                 <li><i class="ion-ios-circle-filled"></i> 2017</li>
                 <li><i class="ion-ios-circle-filled"></i> Sketch, Zeplin, Marvel</li>
             </ul>
-            <div class="h-10"></div> 
+            <div class="h-10"></div>
         </div>
-         <div class="col-md-9">
+        <div class="col-md-9">
             <h4>Define Problem</h4>
-            <ul>
-              <li>Too many alerts
-              <br>
-              According to iOS Human Interface Guidelines, alerts disrupt the user experience and should only be used in important situations. If there are too many situations use alert, people will not take them seriously.</li>
-              <li>Unclear instructions
-              <br>
-              There should be a hint about the limit of the password. I felt frustrated when I input the password and then popuped an alert said I should use the password which contains one uppercase character.  
-              When I pressed the OK button at Step4, I thought I finished the registraion progress and tried to log in, then an alerts popuped  which said that I need to confirm the email address. I think it should inform me that before I tried to log in.</li>
-              <li>Hard to notice the registration button
-              <br>
-              It’s uneasy to find the registration button at a glance, and when I tried to press the registration button, I pressed the forgot password button incautiously.</li>
-            </ul>
+            <p><span style="font-weight:bold;">Too many alerts</span></p>
+            <p>According to iOS Human Interface Guidelines, alerts disrupt the user experience and should only be used
+                in important situations. If there are too many situations use alert, people will not take them
+                seriously.</p>
+            <p><span style="font-weight:bold;">Unclear instructions</span></p>
+            <p>There should be a hint about the limit of the password. I felt frustrated when I input the password and
+                then popuped an alert said I should use the password which contains one uppercase character.
+                When I pressed the OK button at Step4, I thought I finished the registraion progress and tried to log
+                in, then an alerts popuped which said that I need to confirm the email address. I think it should inform
+                me that before I tried to log in.</p>
+            <p><span style="font-weight:bold;">Hard to notice the registration button</span></p>
+            <p>It’s uneasy to find the registration button at a glance, and when I tried to press the registration
+                button, I pressed the forgot password button incautiously.</p>
         </div>
- <div class="col-md-9">
-            <h4>Solution</h4>
-            <ul>
-              <li>Wireframe</li>
-            </ul>
-            <img src="img/swc_wireframe.png" alt="" class="img-responsive"/>
-            <ul>
-              <li>Mock up</li>
-            </ul>
-            <img src="img/swc_mockup.jpg" alt="" class="img-responsive"/>
-            <ul>0.0:</p>
+        <div class="col-md-9">
+            <br>
+            <h4>Wireframe</h4>
+            <img src="img/swc_wireframe.png" alt="" class="img-responsive" />
+            <h4>Mock up</h4>
+            <img src="img/swc_mockup.jpg" alt="" class="img-responsive" />
+            <p>0.0:</p>
             <p>If user have not yet finished the form, the Create account button will be disable.
-When typing the information, layout will be changed. Because the keyboard is at the bottom, in order to display all the input field, the logo become smaller and I move up the position of the form.</p>
-<p>0.1, 0.2:</p>
-<p>When it is at the waiting 30 seconds status, the button is disable.</p>
-</ul>
-            <ul>
-              <li>Style sheet</li>
-              <img src="img/swc_style.png" alt="" class="img-responsive"/>
-            </ul>
+                When typing the information, layout will be changed. Because the keyboard is at the bottom, in order to
+                display all the input field, the logo become smaller and I move up the position of the form.</p>
+            <p>0.1, 0.2:</p>
+            <p>When it is at the waiting 30 seconds status, the button is disable.</p>
+            <br>
+            <h4>Style sheet</h4>
+            <img src="img/swc_style.png" alt="" class="img-responsive" />
         </div>
-   
+
 
     </div>
     <!-- end main-container -->
@@ -131,7 +130,7 @@ When typing the information, layout will be changed. Because the keyboard is at 
         </div>
     </footer>
     <!-- end footer -->
-    
+
     <!-- back to top -->
     <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
     <!-- end back to top -->

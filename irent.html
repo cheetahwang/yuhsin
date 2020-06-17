@@ -20,15 +20,17 @@
     <!-- modernizr -->
     <script src="js/modernizr.js"></script>
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-106402845-1', 'auto');
-  ga('send', 'pageview');
+        ga('create', 'UA-106402845-1', 'auto');
+        ga('send', 'pageview');
 
-</script>
+    </script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -39,9 +41,9 @@
 </head>
 
 <body>
-     <div class="box-logo">
-         <a href="index.html"><img src="img/logo.png" width="80" alt="Logo"></a>
-     </div>
+    <div class="box-logo">
+        <a href="index.html"><img src="img/logo.png" width="80" alt="Logo"></a>
+    </div>
     <!-- Preloader -->
     <div id="preloader">
         <div class="pre-container">
@@ -53,9 +55,9 @@
     </div>
     <!-- end Preloader -->
 
-  
-    
-    
+
+
+
     <!-- main-container -->
     <div class="container main-container">
         <div class="col-md-12">
@@ -63,24 +65,26 @@
             <div class="h-30"></div>
         </div>
 
-        <div class="col-md-12">iRent App</h3>
+        <div class="col-md-12">
+            <h4><span style="font-weight:bold;">iRent App</span></h4>
             <h5>UI / UX Design</h5>
             <div class="h-30"></div>
         </div>
 
+
         <div class="col-md-9">
-            <p>iRent is an app that is used to book a rental car anywhere and anytime. My task was to iterate the app.</p>
+            <h4>Overview</h4>
+            <p>iRent is an app that is used to book a rental car anywhere and anytime.</p>
+            <p>My task was to revision the app, including improve the current workflows, define the new design style,
+                and deliver the final design spec. After pushing the new revision app to the market, the revenue
+                quadrupled and the reviews on Google play
+                were getting better from 2.5 to 4.</p>
+            <p>The biggest challenge was to take a balance on technical limitations, business concerns, and users’
+                needs. I think that a good designer doesn't only think about users, it’s a role to balance all feedback
+                and find the appropriate solution.</p>
+            <br>
             <img src="img/irent_0.jpg" alt="" class="img-responsive" />
             <br>
-            <!-- 
-            <h4>New Functions Added</h4>
-            <ul>
-              <li>Select the car rental location in map view or list view</li>
-              <li>Booking time and nearby location recommendation features are added to reduce the cases of reservations unavailable</li>
-              <li>Remotely locking/unlocking features are added</li>
-              <li>Different pick-up and drop-off spots for some specific locations (the same concept as Ubike)</li>
-            </ul>
-             -->
         </div>
 
         <div class="col-md-3">
@@ -89,68 +93,73 @@
                 <li><i class="ion-ios-circle-filled"></i> Sketch, Photoshop, Illustrator</li>
             </ul>
             <div class="h-10"></div>
-            
+
         </div>
         <div class="col-md-9">
             <h4>Problem statement</h4>
-              <p>Firstly, I played the app for a while and listed some not user-friendly points:</p>
-              <ul>
-              <li>There are up to eleven unarranged buttons making users inaccessible to the feature they need.</li>
-              <li>“Ongoing bookings” and “Completed bookings” sections were not differentiated, making a lengthy page.</li>
-              <li>The booking information was arranged in a time order where the newest one was put at the bottom of the list. Users have to scroll down the lengthy page to check their latest booking.</li>
-            </ul>
-            <img src="img/irent_a.jpg" alt="" class="img-responsive"/>
+            <p>Firstly, I played the app for a while and listed some not user-friendly points:</p>
+            <p>There are up to eleven unarranged buttons making users inaccessible to the feature they need.</p>
+            <p>“Ongoing bookings” and “Completed bookings” sections were not differentiated, making a lengthy page. </p>
+            <p>The booking information was arranged in a time order where the newest one was put at the bottom of
+                the list. Users have to scroll down the lengthy page to check their latest booking.</p>
+            <img src="img/irent_a.jpg" alt="" class="img-responsive" />
 
-            <p>I also gathered feedback from the Internet</p>
-            <ul>
-            	<li>It wastes time to extend the car renting time</li>
-            	<li>Wish to reorder the booking list from latest to old</li>
-            	<li>Wish to add "Day" on renting car page</li>
-            	<li>It's hard to find a cat to rent</li>
-            	<li>The app is not stable</li>
-            	<li>Allow editing the credit card</li>
-            </ul>
+            <h4>Feedback from the Internet</h4>
+            <p>It wastes time to extend the car renting time</p>
+            <p>Wish to reorder the booking list from latest to old</p>
+            <p>Wish to add "Day" on renting car page</p>
+            <p>It's hard to find a cat to rent</p>
+            <p>The app is not stable</p>
+            <p>Allow editing the credit card</p>
 
-            <p>Integrated the problems, discussed the PM, my goal for this project were:</p>
-            <ul>
-            	<li>Reorganize the IA to reduce users' confusion</li>
-            	<li>Optimize the working flows to help users take action efficiently</li>
-            	<li>Redesign the visual style and define the style guide to keep the consistency</li>
-            </ul>
+            <br>
+            <h4>Tasks</h4>
+            <p>Reorganize the IA to reduce users' confusion</p>
+            <p>Optimize the working flows to help users take action efficiently</p>
+            <p>Redesign the visual style and define the style guide to keep the consistency</p>
 
- 
+            <br>
+            <h4>Information architecture</h4>
+            <p>Because the IA was messy I used card sorting to reorganize the IA and came up with the functional map</p>
+            <img src="img/irent_functionalmap.png" height="600" alt="" />
+            <br>
+            <br>
+            <p>The wireframe for renting a car(The final version), click <a
+                    href="https://drive.google.com/file/d/1XuuyNz4JEBBNmD7vuXNUs4Zs5pAI-0Ua/view?usp=sharing"
+                    target="_blank">here</a> to see larger image</p>
+            <img src="img/irent_wireframe.png" height="500" alt="" />
+
             <br>
             <h4>Design</h4>
-            <p>Because the IA was messy I used card sorting to reorganize the IA and came up with the functional map</p>
-            <img src="img/irent_functionalmap.png" height="600" alt=""/>
-            <br>
-            <br>
-            <p>The wireframe for renting a car(The final version), click <a href="https://drive.google.com/file/d/1XuuyNz4JEBBNmD7vuXNUs4Zs5pAI-0Ua/view?usp=sharing" target="_blank">here</a> to see larger image</p>
-            <img src="img/irent_wireframe.png" height="500" alt=""/>
-            <h4>The hi-fi mock up</h4>
             <p>Display the highlight</p>
-            <img src="img/irent_b.jpg" alt="" class="img-responsive"/>
-            <ul>
-              <li>Related iRent service information like “Location,” “Introduction,” and “Rating” are rearranged and combined under “About iRent” section. </li>
-              <li>Pick-up locations are represented in two ways: map view and list view.</li>
-            </ul>
-            <img src="img/irent_c.jpg" alt="" class="img-responsive"/>
-            <ul>
-              <li>Remove the logo underneath the status bar to increase the usable space.</li>
-              <li>Redesign the layout to create a more lucid interface.</li>
-              <li>The center one is the “Recommendation Booking Time” page (shown in the case when there is no available car for booking.) </li>
-            </ul>
-            <img src="img/irent_d.jpg" alt="" class="img-responsive"/>
-            <ul>
-              <li>Separate the ongoing and completed bookings.</li>
-              <li>Buttons displayed on the page vary when the present status changes and accordingly creates different tasks for the users. </li>
-              <li>Functions of pickup, time extension, and return will be triggered only when orders have been placed or when rental cars are in use.</li>
-            </ul>
+            <br>
+            <p>Related iRent service information like “Location,” “Introduction,” and “Rating” are rearranged and
+                combined under “About iRent” section.</p>
+            <p>Pick-up locations are represented in two ways: map view and list view.</p>
+            <img src="img/irent_b.jpg" alt="" class="img-responsive" />
+            <br>
+            <br>
+            <p>Remove the logo underneath the status bar to increase the usable space.</p>
+            <p>Redesign the layout to create a more lucid interface.</p>
+            <p>The center one is the “Recommendation Booking Time” page (shown in the case when there is no
+                available car for booking.) </p>
+            <img src="img/irent_c.jpg" alt="" class="img-responsive" />
+            <br>
+            <br>
+            <p>Separate the ongoing and completed bookings.</p>
+            <p>Buttons displayed on the page vary when the present status changes and accordingly creates different
+                tasks for the users. </p>
+            <p>Functions of pickup, time extension, and return will be triggered only when orders have been placed
+                or when rental cars are in use.</p>
+            <img src="img/irent_d.jpg" alt="" class="img-responsive" />
+
             <br>
             <h5>Download</h5>
             <ul>
-            	<li><a href="https://itunes.apple.com/tw/app/irent-zi-zhu-zu-che/id860552248?l=zh" target="_blank">iOS</a></li>
-            	<li><a href="https://play.google.com/store/apps/details?id=com.cht.easyrent.irent&hl=zh-TW%E2%80%A8" target="_blank">ANDROID</a></li>
+                <li><a href="https://itunes.apple.com/tw/app/irent-zi-zhu-zu-che/id860552248?l=zh"
+                        target="_blank">iOS</a></li>
+                <li><a href="https://play.google.com/store/apps/details?id=com.cht.easyrent.irent&hl=zh-TW%E2%80%A8"
+                        target="_blank">ANDROID</a></li>
             </ul>
         </div>
     </div>
@@ -164,7 +173,7 @@
         </div>
     </footer>
     <!-- end footer -->
-    
+
     <!-- back to top -->
     <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
     <!-- end back to top -->
