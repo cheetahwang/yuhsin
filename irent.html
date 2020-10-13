@@ -75,13 +75,11 @@
         <div class="col-md-9">
             <h4>Overview</h4>
             <p>iRent is an app that is used to book a rental car anywhere and anytime.</p>
-            <p>My task was to revision the app, including improve the current workflows, define the new design style,
-                and deliver the final design spec. After pushing the new revision app to the market, the revenue
-                quadrupled and the reviews on Google play
-                were getting better from 2.5 to 4.</p>
+            <p>My task was to revision the app, including improve the current workflows, define the visual style based on the brand concept, and deliver the final design spec. </p>
             <p>The biggest challenge was to take a balance on technical limitations, business concerns, and users’
                 needs. I think that a good designer doesn't only think about users, it’s a role to balance all feedback
                 and find the appropriate solution.</p>
+            <p>As this revision published, it has brought about the trend of car rental, and ushered in the highest car rental rate in the history of Chinese New Year. The revenue quadrupled, and the reviews on Apple Store were getting better from 2.5 to 4.</p>
             <br>
             <img src="img/irent_0.jpg" alt="" class="img-responsive" />
             <br>
@@ -97,11 +95,9 @@
         </div>
         <div class="col-md-9">
             <h4>Problem statement</h4>
-            <p>Firstly, I played the app for a while and listed some not user-friendly points:</p>
-            <p>There are up to eleven unarranged buttons making users inaccessible to the feature they need.</p>
-            <p>“Ongoing bookings” and “Completed bookings” sections were not differentiated, making a lengthy page. </p>
-            <p>The booking information was arranged in a time order where the newest one was put at the bottom of
-                the list. Users have to scroll down the lengthy page to check their latest booking.</p>
+            <p>Before revision, the APP has many place which is anti-user-behavior. For example:
+            <p>At the home page, there are up to nine disarranged buttons making users inaccessible to the features they need.</p>
+            <p>“Ongoing bookings” and “Completed bookings” sections were not differentiat- ed, making a lengthy page.</p>
             <img src="img/irent_a.jpg" alt="" class="img-responsive" />
 
             <h4>Feedback from the Internet</h4>
@@ -121,16 +117,26 @@
             <br>
             <h4>Information architecture</h4>
             <p>Because the IA was messy I used card sorting to reorganize the IA and came up with the functional map</p>
-            <img src="img/irent_functionalmap.png" height="600" alt="" />
+            <img src="img/irent_IA.png" height="600" alt="" class="img-responsive" />
+            <br>
+            <h4>Flow: Renting a car</h4>
+            <p>There is a common user complaint: the difficulty in renting a car. My first idea is allow users to select the pick-up location through map or list:</p>
+            <br>
+            <img src="img/irent_idea.png" height="600" alt="" class="img-responsive" />
+            <br>
+            <p>This process flow is assumed to save users’ effort in finding out the best site and time for car rental.
+I used Wireframe for discussion with the developer and the proprietor. The proprietor was concerned about the fundamental changes of the new version; he hoped for a fine-tuned version for the sake of churn rate. From the developer’s perspective, the system would be overloaded because of its way of data loading: to load data from the server each time an option is made; the developer didn’t suggest this method.</p>
+<p>In order to tackle users’ biggest pain point of the inability to rent a car, we came up with another way: to design a recommendation mechanism aiming to reduce users’ time of repetitive trials.
+Users to select location/time → System to show whether there is car available; if there isn’t, suggest: 1) the nearby car rental site with the same selected time, and 2) different time with the same car rental site. That way, users can still be provided with a secondary option even if there are no cars for rent under users’ settings of location and time.</p>
+<p><span style="font-weight:bold;">The final version wireframe for renting a car:<span></p>
+            <img src="img/irent_flow.jpg" height="600" alt="" class="img-responsive" />
             <br>
             <br>
-            <p>The wireframe for renting a car(The final version), click <a
-                    href="https://drive.google.com/file/d/1XuuyNz4JEBBNmD7vuXNUs4Zs5pAI-0Ua/view?usp=sharing"
-                    target="_blank">here</a> to see larger image</p>
-            <img src="img/irent_wireframe.png" height="500" alt="" />
-
+            <h4>Visual design</h4>
+            <p>In addition to assisting users to complete tasks, an interface, in my view, also plays the role of creating a pleasant time for people’s interactions with products, as well as expressing the value and concept of a brand.</p>
+            <p>The original App leveraged colors of black, orange, B&W and gray, and the red color used in iRent logo. I removed the color orange for the purpose of stressing Chailease’s( 中租租車) signature red color, and changed the color black into dark gray in order to create an accessible tone. Moreover, I defined and integrated the components to enhance the systematic unity of the product as well as users’ capacity; illustrations were also applied to liven up the images and to pull closer to users.</p>
             <br>
-            <h4>Design</h4>
+            <h4>UI Details</h4>
             <p>Display the highlight</p>
             <br>
             <p>Related iRent service information like “Location,” “Introduction,” and “Rating” are rearranged and

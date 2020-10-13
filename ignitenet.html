@@ -75,15 +75,12 @@
 
         <div class="col-md-9">
             <h4>Introduction</h4>
-            <p>IgniteNet Cloud Controller is a B2B a scalable wireless access point management system, serves 200+ users
-                from 50+ countries, including the US, Japan, and Thailand.</p>
-            <p>It has a powerful structure(3 levels structure: Cloud, Site, and Device) to help users manage a huge
+            <p>IgniteNet which serves 200+ users from 50+ countries, including the US, Japan, and Thailand is taking a fresh approach to wireless and wired networks with a focus on simplicity, ease of use and performance.</p>
+            <p>IgniteNet Cloud Controller is a scalable wireless device management system, enables customers to monetize and secure their Wi-Fi networks, enable music streaming, setup up LTE backup, and many more. It has a powerful structure(3 levels structure: Cloud, Site, and Device) to help users manage a huge
                 network.</p>
             <br>
             <h4>Overview</h4>
-            <p>In this project, I designed a new feature "Add a note" which saves users' time. It allows users to add
-                notes on the cloud so that they can check any work-related information on the cloud instead of looking
-                for it on laptops or notebooks.</p>
+            <p>In this project, I designed a new feature "Add a note" which saves users' time. It allows users to add notes on the cloud so that they can check any work-related information on the cloud instead of looking for it on laptops or notebooks without efficiency.</p>
             <p>I was responsible for the whole design stage, from concepts to the final design solution and the design
                 spec. I collaborated with the product owner and developers to design a simple way to solve users'
                 problems and for developers, it didn't take much effort to deploy.</p>
@@ -102,11 +99,11 @@
             <img src="img/ig_process.jpg" alt="" class="img-responsive" />
             <br>
             <h4>Our users</h4>
-            <p>The data was collected through Google Analytics, based on it and the user interviews to generate the
-                persona.</p>
-            <img src="img/ig_ga.jpg" alt="" class="img-responsive" />
+            <p>Most of our users are MIS, who work in ISP(Internet Service Provider) or WISP(Wireless Internet Service Provider) companies, manage the network for their clients, like schools, restaurants, hotels, and department stores.</p>
             <br>
             <img src="img/ig_persona.jpg" alt="" class="img-responsive" />
+            <br>
+            <p>Based on the data collected through Google Analytics and the user interviews, generating the persona to help the team understand our users more so that we can design the product meets users' needs more.</p>
             <br>
             <p>According to the persona, I knew users' biggest goal is to provide stable internet and solve problems as
                 soon as possible</p>
@@ -114,86 +111,38 @@
 
         <div class="col-md-9">
             <br>
-            <h4>The problem</h4>
-            <p>Users manage large network, they need to remember much information to help them work, like the network
-                settings, device locations. Users usually note them everywhere, such as write down in the notebooks or
-                somewhere on the laptops. It wastes their time to look for what they need.</p>
+            <h4>Problem</h4>
+            <p>I conducted Contextual Inquiry to learn more about users’ thought, feelings, their tools, who and how did they interact with. Through the reasearch, I defined the problem.</p>
+            <p>Users manage large network, they need to remember huge information to help them work, like the network settings, device locations. Users usually note them everywhere, such as write down in the notebooks or somewhere on the laptops. It wastes their time to look for what they need.</p>
             <br>
-            <p><span style="font-weight:bold;">"As customer support, I need to remember much information to help me
-                    manage several huge networks so that
-                    I can maintain the network and solve the internet issue in the shortest time"</span></p>
+            <p><span style="font-weight:bold;">"As customer support, I need to remember much information to help me manage several huge networks so that I can maintain the network and solve issues in the shortest time"</span></p>
         </div>
         <div class="col-md-9">
+            <br>
+            <h4>Challenge</h4>
+            <p>Design a flexible and scalable way to help users enhance work efficiency in various scenarios.</p>
             <br>
             <h4>Design principle</h4>
             <p>Through persona, scenarios, and internal discussion, I defined the design principle: Flexible, Efficient,
                 and Visible.</p>
             <br>
             <h4>Solution</h4>
-            <p>The idea was to allow users to add notes in the cloud. If we have a "note" for users so that they can use
-                it to remember work-related information in the cloud, they don't need other tools to help them.</p>
-            <p>The exact location to put the note feature needed to conduct tests to find the best solution.</p>
-            <p>
-                In order to contain any information users might note, I designed a simple input field. It didn't have
-                any unnecessary element, anything in this input field was needed: the title is to remind users which
-                site/device is the note for; the placeholder is to educate users how can they use; the buttons are for
-                them to finish the task.
-                In this way, it gives users the biggest flexibility, lowering the learning curve, and improving working
-                efficiency.</p>
-            <p>I ideated three versions, made prototypes, then I tested them.</p>
-        </div>
-        <div class="col-md-9">
+            <p><span style="font-weight:bold;">"How might we provide a "note" feature for users so that they can use it to remember work-related information in the cloud?"</span></p>
+            <p>The idea was to allow users to add notes in the cloud. In this way, they can finish work without switching many tools, it saves users' precious time.</p>
             <br>
             <h4>Design</h4>
+            <p>I designed many versions and made prototypes for Usability Tests. I gathered feedbacks from users and developers. To tweak the design to be more understandable, easy-to-use and less coding effort, I iterated the design based on the feedbacks.</p>
             <br>
-            <img src="img/ig_a.jpg" alt="" class="img-responsive" />
-            <p>I put the add note feature on the left side menu so that users can use this note no matter which pages
-                they visit. Devices inherit in the same site share the same note, user can read all related notes with
-                less effort.</p>
+            <img src="img/ig_note_version.png" alt="" class="img-responsive" />
             <br>
-            <img src="img/ig_b.jpg" alt="" class="img-responsive" />
-            <p>Since the note is about information, I put it in the device information section/dashboard at the device
-                level. At the site level, I used the widget form to display it on the dashboard because the dashboard is
-                the most visited page.</p>
+            <h4>Final design</h4>
+            <p>To contain any information users might note, I designed a simple input field. It didn't have any unnecessary element, anything in this input field was needed: the title is to remind users which site/device is the note for; the placeholder is to educate users how can they use; the buttons are for them to finish the task. In this way, it gives users the biggest flexibility, lowering the learning curve, and improving working efficiency.</p>
+            <p>I put the note at the header which is visible and easy to access, and used the defined secondary button style defined in the design system so that developers can deploy it quickly and kept system consistency as well. Since it's a new feature, users were not familiar with it, enhancing the consistency helped them know how to use it quickly.</p>
             <br>
-            <img src="img/ig_c.jpg" alt="" class="img-responsive" />
-            <p>I put the note at the header and used the defined secondary button style defined in the design system so
-                that developers can deploy it quickly. The header place is visible and easy to access.</p>
+            <img src="img/ig_note_final.png" alt="" class="img-responsive" />
+            <br>
+            <img src="img/ig_note_status.jpg" alt="" class="img-responsive" />
         </div>
-        <div class="col-md-9">
-            <br>
-            <h4>Usability tests</h4>
-            <p>The result showed that the version C was better. </p>
-            <p>Because version A, the note location at let menu was not visible enough for users to use it. Although
-                it's most accessible, its logic was different from the current cloud, and users were confused by it.</p>
-            <p>About version B, the device level note location was reasonable for users. But at the site level, the
-                note was not easy to get access to. </p>
-            <p>Version C has better accessibility than version B. One more reason I decided version C is because
-                it used the defined components, it kept system consistency and save deployment much effort.</p>
-        </div>
-        <div class="col-md-9">
-            <br>
-            <h4>Iteration</h4>
-            <img src="img/ig_final01.jpg" alt="" class="img-responsive" />
-            <p><span style="font-weight:bold;">Flexible, Efficient and Visible.</span></p>
-            <p>I wanted to solve the [version C]unified issue of the button at site level and device level. Since it's
-                the new feature, users were not familiar with it, enhancing the consistency helped them know how to use
-                it quickly.</p>
-            <p>At the device level, there was already much information, adding a label to button resulted in the header
-                looked too complex. I unified the buttons with the text button style defined in the design system and
-                moved the note to a more noticeable place.</p>
-        </div>
-
-        <div class="col-md-9">
-            <br>
-            <h4>The final design</h4>
-            <img src="img/ig_final02.jpg" alt="" class="img-responsive" />
-        </div>
-
-
-
-
-
 
     </div>
     <!-- end main-container -->
